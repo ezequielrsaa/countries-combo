@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+#Autor Ezequiel Rodolfo Rodriguez Saá
+Examen de Ingreso: Full Stack Senior React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Requisitos:
+- Se deben poder seleccionar individualmente los países
+- Se deben seleccionar y deseleccionar todos cuando se presiona el checkbox “Select
+All”
+- Si esta marcado “Select All”, y por ende todos los otros checkbox también, y se
+deselecciona uno de los países, “Select All” debe ser deseleccionado.
+- Si se seleccionan todos los países y no “Select All”, “Select All” debe ser
+seleccionado automáticamente.
+Utilizar TypeScript y create react app (o Vite de ser posible). Subir a github el código y
+dejarlo en público para que lo podamos ver. La lógica de la app debe estar en ‘app.tsx’.
+Hostear la app en vercel y enviar link de la demo Junto al código de github.
